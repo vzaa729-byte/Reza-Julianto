@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.navigasi {
+    background: aquamarine;
+    padding: 15px;
+}
+.navigasi a {
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+}
+.content {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: blue;
+}
+p {
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+img {
+    width: 450px;
+    border: 1px solid lightblue;
+    padding: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th{
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+}
+td{
+    padding: 10px;
+    border: 1px solid gray;
+}
+tr{
+    background: #f5f5f5;
+}
+.from-box{
+    background: #f8f8f8;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+label{
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+}
+
+button{
+
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background: aquamarine;
+}
+
+.footer{
+
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 20px; 
+
+    margin-top: 20px;
+}
+
+.card {
+   /* margin: 10px;*/
+    background: white;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 3px solid lightgrey;
+    padding: 5px;
+}
+
+.card h3 {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 15px;
+}
